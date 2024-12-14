@@ -1,0 +1,50 @@
+/*
+    Student Name: Matthew Morgan
+    File Name: styles.css
+    Date: 12/13/24
+*/
+
+/* Begin Mobile Styles */
+
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Style rules for hero image and header */
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(.../images/hero-dog-index.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcome {
+    position: relative;
+    top: 20%;
+    margin: auto;
+    padding: 2em;
+}
+
+.welcome p {
+    font-size: 1.25em;
+    width: 70%;
+    line-height: 1.5;
+
+}
+
+  /* Add this media query */
+    @media (min-width: 768px) {
+    .tablet-desktop {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+  }  
+
+
